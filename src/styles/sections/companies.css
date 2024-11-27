@@ -1,0 +1,26 @@
+.section-header {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.companies {
+    padding: 80px;
+    height: 333px;
+}
+
+.companies-wrapper {
+    display: flex;
+    margin-top: 80px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.companies-wrapper .company {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

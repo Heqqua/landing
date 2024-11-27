@@ -1,0 +1,117 @@
+.promo-subsection {
+    height: 640px;
+    padding: 80px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.promo-subsection__text-content {
+    width: 800px;
+}
+
+.promo-subsection .promo-subsection__name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.promo-subsection .promo-subsection__header {
+    font-family: Inter, sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79.2px;
+    margin-top: 16px;
+    letter-spacing: 3px;
+}
+
+
+.promo-subsection .promo-subsection__header.promo-subsection__header_small {
+    font-size: 56px;
+    line-height: 61.6px;
+}
+
+#idea {
+    position: relative;
+}
+
+#idea::before {
+    content: "";
+    border: 1px solid #000;
+    width: 172px;
+    height: 71px;
+    border: 5px solid #c2410c;
+    position: absolute;
+    left: -35.4%;
+    top: 10%;
+}
+
+#custom {
+    position: relative;
+}
+#custom::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #be185d;
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: -12%;
+}
+
+.promo-subsection .promo-subsection__description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-top: 32px;
+}
+
+.promo-subsection .promo-subsection__button {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.promo-subsection__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#discover-img {
+    height: 379px;
+}
+
+.promo-subsection__image.promo-subsection__image_big {
+    width: 750px;
+    height: 480px;
+}
+
+.colored {
+    width: 100%;
+    background-color: #581c87;
+}
+
+.promo-subsection.promo-subsection_last {
+    display: flex;
+}
+
+.feedback__autor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.feedback__autor .feedback__autor-thumbnail {
+    width: 64px;
+    height: 64px;
+}
+
+.feedback__autor .feedback__autor-name {
+    line-height: 25px;
+}
