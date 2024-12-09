@@ -22,8 +22,6 @@ nav {
 }
 
 .nav-buttons .nav-buttons__button {
-    font-size: 16px;
-    font-weight: 500;
     height: 100%;
     cursor: pointer;
 }
@@ -31,7 +29,7 @@ nav {
     line-height: 48px;
 }
 
-.nav-buttons .nav-buttons__button.logo {
+.logo {
     font-size: 32px;
     font-weight: 700;
     margin-right: 16px;
@@ -46,8 +44,9 @@ nav {
 }
 
 .login-button {
+    font-family: Inter, sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     width: 98px;
     text-align: center;
     cursor: pointer;

@@ -22,3 +22,7 @@ body {
     margin: 0 auto;
 }
 
+.event {
+    min-width: 410px;
+    min-height: 370px;
+}
